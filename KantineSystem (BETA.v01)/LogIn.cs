@@ -52,7 +52,7 @@ namespace KantineSystem__BETA.v01_
 
         private void LogInButton_Click(object sender, EventArgs e)
         {
-            if (UsernameBox.Text == "123" && PasswordBox.Text == "admin")
+            if (UsernameBox.Text == "TobiasG" && PasswordBox.Text == "admin123")
             {
                 var mainForm = new MainScreen();
                 mainForm.Show();
