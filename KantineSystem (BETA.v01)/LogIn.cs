@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 using static System.Windows.Forms.DataFormats;
 
 namespace KantineSystem__BETA.v01_
@@ -52,6 +53,12 @@ namespace KantineSystem__BETA.v01_
 
         private void LogInButton_Click(object sender, EventArgs e)
         {
+
+            // TRYING TO FIX CONNECTION STRING TO ADD USERNAME/PASSWORD TO MYSQL DATABASE
+
+
+            // HERE ENDS THE WORK OF THE MYSQL BETA
+
             if (UsernameBox.Text == "TobiasG" && PasswordBox.Text == "admin123")
             {
                 var mainForm = new MainScreen();

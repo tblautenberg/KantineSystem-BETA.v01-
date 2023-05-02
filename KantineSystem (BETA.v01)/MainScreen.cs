@@ -97,6 +97,7 @@ namespace KantineSystem__BETA.v01_
             else
             {
                 MessageBox.Show("Dit køb er annuleret. Hav en god dag!");
+                this.Close();
             }
         }
 
