@@ -12,7 +12,7 @@ namespace KantineSystem__BETA.v01_
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new LogIn());
-            Application.Run(new MainScreen());
+            // Application.Run(new MainScreen());
 
         }
     }

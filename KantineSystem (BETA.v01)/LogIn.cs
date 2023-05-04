@@ -24,6 +24,11 @@ namespace KantineSystem__BETA.v01_
 
         }
 
+        private void LogIn_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Environment.Exit(1);
+        }
+
         // SETTING  THE TEXT FIELD FOR THE LOGIN AND PASSWORD GUIDES FORM USER
 
 
@@ -59,7 +64,7 @@ namespace KantineSystem__BETA.v01_
 
             // HERE ENDS THE WORK OF THE MYSQL BETA
 
-            if (UsernameBox.Text == "TobiasG" && PasswordBox.Text == "admin123")
+            if (UsernameBox.Text == "Weronika" && PasswordBox.Text == "admin123")
             {
                 var mainForm = new MainScreen();
                 mainForm.Show();
@@ -73,9 +78,9 @@ namespace KantineSystem__BETA.v01_
                 }
                 else
                 {
-                    MessageBox.Show("Du er nu logget helt af systemet.");
+                    MessageBox.Show("Systemet vil nu lukke.");
                 }
-            }
+            }   
         }
 
         private void GetAssistanceButton_Click(object sender, EventArgs e)
